@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Simple IPS Dashboard</title>
+  <style>
+    body{font-family: Arial, Helvetica, sans-serif; margin:20px}
+    button{padding:8px 12px; margin-right:8px}
+    table{border-collapse:collapse; width:100%; margin-top:12px}
+    th,td{border:1px solid #ddd; padding:8px}
+    th{background:#f4f4f4}
+  </style>
+</head>
+<body>
+  <h1>Simple IPS (Flask + pydivert)</h1>
+  <div>
+    <button onclick="start()">Start Sniffing</button>
+    <button onclick="stop()">Stop Sniffing</button>
+    <button onclick="fetchAlerts()">Refresh</button>
+  </div>
+
+  <table id="alerts">
+    <thead><tr><th>Time</th><th>Src</th><th>Dst</th><th>Alert</th><th>Payload</th></tr></thead>
+    <tbody></tbody>
+  </table>
+
+<script src="/static/main.js"></script>
+</body>
+</html>
