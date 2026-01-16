@@ -69,3 +69,4 @@ def start_sniffing(callback=None, divert_filter="ip"):
 
 def stop_sniffing():
     running.clear()
+
