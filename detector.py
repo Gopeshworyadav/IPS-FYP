@@ -36,7 +36,7 @@ def detect_packet(pkt):
     if dst_port == 443 or src_port == 443:
         return None
 
-    # ---------------- SQL Injection ----------------
+    # --------------- SQL Injection ----------------
     sql_patterns = [
         "select ", "union ", " or 1=1",
         "' or '1'='1", "\" or \"1\"=\"1",
