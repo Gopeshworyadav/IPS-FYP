@@ -18,3 +18,4 @@ async function fetchAlerts(){
     tbody.appendChild(tr);
   }
 }
+
