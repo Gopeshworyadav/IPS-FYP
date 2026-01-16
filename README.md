@@ -11,6 +11,6 @@ Files:
 - `packet_sniffer.py` — pydivert integration
 - `firewall.py` — drop logic
 - `templates/index.html` — simple UI
-- `static/main.js` — dashboard JS
+- `static/main.js` — dashboard .JS
 
 
